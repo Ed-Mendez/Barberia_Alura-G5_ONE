@@ -1,3 +1,35 @@
+
+header {
+    background-color: #bbb;
+    padding: 20px 0; /*(inferior, superior), (Laterales)*/
+}
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px; /*up, right, down, left*/
+}
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
 p {
     text-align: center;
 }
@@ -6,7 +38,8 @@ em strong {
     color: red;
 }
 
-ul {
+
+.lst-diferenciales {
     display: inline-block; /*Solo utilizara el espacio de su contenido */
     vertical-align: top;
     width: 20%;
