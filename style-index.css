@@ -1,4 +1,4 @@
-
+/*Header*/
 header {
     background-color: #bbb;
     padding: 20px 0; /*(inferior, superior), (Laterales)*/
@@ -30,51 +30,40 @@ nav a:hover {
     text-decoration: underline;
 }
 
-p {
+/*Main*/
+.titulo-principal {
     text-align: center;
+    font-size: 2em; /*em: hara el tamaño dos veces del tamaño definido en el navegador*/
+    margin: 0 0 1em;
+    clear: left;
 }
 
-em strong {
-    color: red;
+.principal p {
+    margin: 0 0 1em;
 }
-
-
-.lst-diferenciales {
-    display: inline-block; /*Solo utilizara el espacio de su contenido */
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-
-.tituloPrincipal {
-    padding-left: 30px;
-}
-.tituloCentralizado {
-    text-align: center;
-}
-.principal {
-    background-color: #ccc;
-    padding: 20px;
-}
-.diferenciales {
-    background-color: white;
-    padding: 30px;
-}
-.items {
+.principal em {
     font-style: italic;
+}
+.principal strong {
+    font-weight: bold;
+}
+
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
 }
 
 .imagenDiferenciales {
-    width: 50%;
+    width: 60%;
 }
 
-#banner {
+.banner {
     width: 100%;
 }
-#mision {
-    font-size: 20px
-}
 
+/*Footer*/
 footer {
     text-align: center;
     background: url(img/bg.jpg);
