@@ -53,8 +53,6 @@ body {
     clear: left;
 }
 
-.titulo-principal:firs
-
 .principal p {
     margin: 0 0 1em;
 }
@@ -118,6 +116,12 @@ body {
 
 .imagen-diferenciales {
     width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000; /*vertical horizontal difuminacion expansion color*/
+}
+
+.imagen-diferenciales:hover {
+    opacity: 0.3;
 }
 
 .video {
