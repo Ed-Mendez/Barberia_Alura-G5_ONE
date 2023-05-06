@@ -29,6 +29,10 @@ nav a:hover {
     text-decoration: underline;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 footer {
     text-align: center;
     background: url(img/bg.jpg);
@@ -87,4 +91,44 @@ thead {
 td, th {
     border: 1px solid black;
     padding: 8px 15px;
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+
+    }
+    nav a {
+        font-size: 19px;
+    }
+
+    main, .caja {
+        width: auto;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    .input-padron {
+        width: 75%;
+        margin: 0 0 20px 20px;
+    }
+
+    select {
+        margin: 5px;
+    }
+
+    .enviar {
+        width: 50%;
+        margin: 0 25% 0 25%;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

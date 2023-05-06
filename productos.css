@@ -28,6 +28,10 @@ nav a:hover {
     color: #c78c19;
     text-decoration: underline;
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 .productos {
     width: 940px;
     margin: 0 auto;
@@ -74,4 +78,29 @@ footer {
     color: white;
     font-size: 13px;
     margin: 20px;
+}
+
+@media  screen and (max-width: 480px){
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+
+    }
+    nav a {
+        font-size: 19px;
+    }
+
+    .caja, .productos, .productos li {
+        width: auto;
+    }
+
+    .productos {
+        padding: 25px;
+    }
+
+    .productos li{
+        margin: 0 0 25px 0;
+    }
 }
